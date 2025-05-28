@@ -9,10 +9,13 @@
 	 cdXML.webBrowserOutput(out);
  }else{
 	 cdXML.createDeptFile();
+
 	 String name = "이장훈";
-	 String name2 = "삼장훈";
-	 System.out.println(name+"/"+name2);
-	 %>
+	 System.out.println(name);
+	int day=28;
+	System.out.println(day +"일");
+
+	%>
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <url>http://localhost/jsp_prj/xml0528/db_dept.xml</url>
